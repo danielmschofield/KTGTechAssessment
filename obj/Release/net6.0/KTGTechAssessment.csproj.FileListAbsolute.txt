@@ -1,0 +1,15 @@
+/Users/daniel/Documents/KTGTechAssessment/bin/Release/net6.0/KTGTechAssessment
+/Users/daniel/Documents/KTGTechAssessment/bin/Release/net6.0/KTGTechAssessment.deps.json
+/Users/daniel/Documents/KTGTechAssessment/bin/Release/net6.0/KTGTechAssessment.runtimeconfig.json
+/Users/daniel/Documents/KTGTechAssessment/bin/Release/net6.0/KTGTechAssessment.dll
+/Users/daniel/Documents/KTGTechAssessment/bin/Release/net6.0/KTGTechAssessment.pdb
+/Users/daniel/Documents/KTGTechAssessment/obj/Release/net6.0/KTGTechAssessment.csproj.AssemblyReference.cache
+/Users/daniel/Documents/KTGTechAssessment/obj/Release/net6.0/KTGTechAssessment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daniel/Documents/KTGTechAssessment/obj/Release/net6.0/KTGTechAssessment.AssemblyInfoInputs.cache
+/Users/daniel/Documents/KTGTechAssessment/obj/Release/net6.0/KTGTechAssessment.AssemblyInfo.cs
+/Users/daniel/Documents/KTGTechAssessment/obj/Release/net6.0/KTGTechAssessment.csproj.CoreCompileInputs.cache
+/Users/daniel/Documents/KTGTechAssessment/obj/Release/net6.0/KTGTechAssessment.dll
+/Users/daniel/Documents/KTGTechAssessment/obj/Release/net6.0/refint/KTGTechAssessment.dll
+/Users/daniel/Documents/KTGTechAssessment/obj/Release/net6.0/KTGTechAssessment.pdb
+/Users/daniel/Documents/KTGTechAssessment/obj/Release/net6.0/KTGTechAssessment.genruntimeconfig.cache
+/Users/daniel/Documents/KTGTechAssessment/obj/Release/net6.0/ref/KTGTechAssessment.dll

@@ -1,0 +1,5 @@
+/Users/daniel/Documents/KTGTechAssessment/bin/Release/net6.0/publish/KTGTechAssessment
+/Users/daniel/Documents/KTGTechAssessment/bin/Release/net6.0/publish/KTGTechAssessment.dll
+/Users/daniel/Documents/KTGTechAssessment/bin/Release/net6.0/publish/KTGTechAssessment.deps.json
+/Users/daniel/Documents/KTGTechAssessment/bin/Release/net6.0/publish/KTGTechAssessment.runtimeconfig.json
+/Users/daniel/Documents/KTGTechAssessment/bin/Release/net6.0/publish/KTGTechAssessment.pdb
