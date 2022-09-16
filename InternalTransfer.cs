@@ -1,12 +1,13 @@
 ﻿namespace KTGTech;
 public class InternalTransfer
 {
-    private static int _solutionLen = 0;
-    private static List<Order> _solution = new List<Order>();
-    private static int _test = 0;
+    private int _solutionLen =0;
+    private List<Order> _solution = new List<Order>();
+    private int _test =0;
 
-    public static List<Order> Collect(List<Order> orders)
+    public List<Order> Collect(List<Order> orders)
     {
+ 
         if (orders.Sum(order => order.Quantity) == 0)
         {
             return orders;
@@ -14,14 +15,12 @@ public class InternalTransfer
 
         bruteForceOrders(new List<Order>(), orders, 0, 0);
 
-        // Console.WriteLine(_test);
-
         return _solution;
     }
 
-    private static void bruteForceOrders(List<Order> potentialFinalList, List<Order> remainingList, int sum, int len)
+    private void bruteForceOrders(List<Order> potentialFinalList, List<Order> remainingList, int sum, int len)
     {
-        _test++;
+        // _test++;
         for (int i = 0; i < remainingList.Count; i++)
         {
             Order currentValue = remainingList[i];
@@ -45,7 +44,7 @@ public class InternalTransfer
                 bruteForceOrders(newPotentialFinalList, newRemainingList, newSum, newLen);
             }
         }
+
     }
-    // Time O(n!) Space O(n^2)
 
 }
