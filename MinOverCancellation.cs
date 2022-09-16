@@ -1,12 +1,12 @@
 ﻿namespace KTGTech;
-public class MinOverCanellation
+public class MinOverCancellation
 {
-    private static int _solutionSum = 0;
-    private static int _cancelTarget;
-    private static List<Order> _solution = new List<Order>();
-    private static int _test = 0;
+    private int _solutionSum = 0;
+    private int _cancelTarget;
+    private List<Order> _solution = new List<Order>();
+    private int _test = 0;
 
-    public static List<Order> Collect(List<Order> orders, int target)
+    public List<Order> Collect(List<Order> orders, int target)
     {
         _cancelTarget = target;
         int sum = 0;
@@ -16,7 +16,7 @@ public class MinOverCanellation
         return _solution;
     }
 
-    private static void bruteForceMinOverCancellation(List<Order> potentialFinalList, List<Order> remainingList, int sum)
+    private void bruteForceMinOverCancellation(List<Order> potentialFinalList, List<Order> remainingList, int sum)
     {
         _test++;
         for (int i = 0; i < remainingList.Count; i++)
@@ -42,5 +42,5 @@ public class MinOverCanellation
             }
         }
     }
-    // Time O(2^(n-1)) Space O(n^2)
+
 }
